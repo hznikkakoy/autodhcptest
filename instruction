@@ -1,0 +1,5 @@
+curl -fsSL -o /tmp/dhcp-config.sh \
+  https://raw.githubusercontent.com/hznikkakoy/autodhcptest/refs/heads/main/dhcp-config.sh
+
+head -n 1 /tmp/dhcp-config.sh      # должно быть #!/bin/bash
+sudo bash /tmp/dhcp-config.sh
